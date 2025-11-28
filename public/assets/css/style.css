@@ -457,7 +457,7 @@ table tr:hover {
   margin: 0;
 }
 
-/* === Halaman Verifikasi (BARU) === */
+/* === Halaman Verifikasi === */
 .container-xs {
   max-width: 500px;
   text-align: center;
@@ -471,10 +471,9 @@ table tr:hover {
   border-radius: 10px;
   margin: 20px 0;
   border: 1px solid #ffeeba;
-  text-align: left; /* Agar teks di dalamnya rata kiri jika panjang */
+  text-align: left; 
 }
 
-/* Reset margin p di dalam alert agar tidak berantakan */
 .alert-warning p {
   margin: 0;
 }
@@ -484,7 +483,6 @@ table tr:hover {
   font-size: 14px;
 }
 
-/* Tombol Besar khusus Verifikasi */
 .btn-large {
   width: 100%;
   padding: 15px;
@@ -498,6 +496,41 @@ table tr:hover {
   margin-top: 20px;
   font-size: 13px;
   color: #888;
+}
+
+/* === Auth Footer (Login/Register Style Baru) === */
+.auth-footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+.auth-footer span {
+  display: block;
+  font-size: 14px;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+/* Button Outline (Putih) untuk link alternatif */
+a.btn-outline {
+  display: inline-block;
+  background: var(--white);
+  color: var(--primary-color);
+  padding: 10px 24px;
+  border: 2px solid #eef2f5;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition);
+  font-size: 14px;
+}
+
+a.btn-outline:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 /* === Flash Message === */
